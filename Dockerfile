@@ -83,6 +83,7 @@ RUN set -ex \
             | awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' \
     )" \
     && apk add --virtual .ruby-rundeps $runDeps \
+        bash \
         build-base \
         bzip2 \
         ca-certificates \
