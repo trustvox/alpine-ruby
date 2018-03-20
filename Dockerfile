@@ -84,6 +84,7 @@ RUN set -ex \
     )" \
     && apk add --virtual .ruby-rundeps $runDeps \
         bash \
+        less \
         build-base \
         bzip2 \
         ca-certificates \
