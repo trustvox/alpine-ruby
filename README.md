@@ -7,4 +7,5 @@ Dockerized basic ruby environment inside a small Alpine Linux docker image
 ## Tags
 
   - **v0.7**: Ruby 2.5.1, alpine.
-  - **v0.8**: Ruby 2.6.3, alpine 3.10, git.
+  - **v0.8**: Ruby 2.6.3, alpine 3.10, git, mysql.
+  - **v0.9**: Ruby 2.6.3, alpine 3.10, git, postgres - *see pg branch*.
