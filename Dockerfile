@@ -9,6 +9,6 @@ RUN apk update && \
       less \
       libxml2-dev \
       libxslt-dev \
-      mariadb-dev \
+      postgresql-dev \
       ruby-dev \
       tzdata
