@@ -13,7 +13,8 @@ RUN apk update && \
       libxslt-dev \
       postgresql-dev \
       ruby-dev \
-      tzdata
+      tzdata \
+      shared-mime-info
 
 RUN gem update --system && \
     gem install bundler
