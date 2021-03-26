@@ -11,4 +11,5 @@ RUN apk update && \
       libxslt-dev \
       mariadb-dev \
       ruby-dev \
-      tzdata
+      tzdata \
+      shared-mime-info
